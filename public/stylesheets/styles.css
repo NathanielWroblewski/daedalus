@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  color: #444;
+  background-color: white;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444;
+}
+
+p { font-size: 24px; }
+
+a { text-decoration: none; }
+
+a h2 { color: #abb7b7; }
+
+a:hover h2 { color: #444; }
+
+.board div {
+  height: 15px;
+  width: 15px;
+  background-color: #444;
+  float: left;
+}
+
+.board div:nth-child(49n + 1) { clear: both; }
+
+.board div.path { background-color: white; }
+
+.board div.daedalus { background-color: #abb7b7 !important; }
+
+.board div.minotaur { background-color: #e67e22 !important; }
