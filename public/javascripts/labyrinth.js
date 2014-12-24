@@ -18,6 +18,7 @@ $(document).ready(function() {
     if (Labyrinth.level > 5) {
       game.gameOver()
     } else {
+      $('.level').html(Labyrinth.level)
       daedalus.maze.initialize()
       daedalus.carvePath()
 
