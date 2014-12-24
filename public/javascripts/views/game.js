@@ -22,6 +22,8 @@ Labyrinth.Views.Game = function(options) {
       if (e.keyCode === 39) this.move({character: 'daedalus', direction: 'rightOf'})
       // down arrow key
       if (e.keyCode === 40) this.move({character: 'daedalus', direction: 'below'})
+
+      e.preventDefault();
     }.bind(this))
   },
 
