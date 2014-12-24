@@ -53,11 +53,11 @@ Labyrinth.Views.Game = function(options) {
   },
 
   this.daedalusDies = function() {
-    this.$el.html('<a href="/"><h2>OM NOM NOM...</h2></a>')
+    this.$el.html('<a href="/daedalus"><h2>OM NOM NOM...</h2></a>')
   },
 
   this.gameOver = function() {
-    this.$el.html('<h2>YOU WIN!</h2><a href="/"><h2>AGAIN</h2></a>')
+    this.$el.html('<h2>YOU WIN!</h2><a href="/daedalus"><h2>AGAIN</h2></a>')
   },
 
   this.moveCharacter = function(attrs) {
